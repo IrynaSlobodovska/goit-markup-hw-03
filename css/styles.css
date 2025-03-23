@@ -116,6 +116,9 @@ section {
 /* -------- HEADER ------- */
 
 /* -------- PAGE-MAIN ------- */
+.main-container {
+  padding: 188px 0;
+}
 
 .page-main {
   background-color: #2e2f42;
@@ -129,6 +132,7 @@ section {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  max-width: 496px;
 }
 
 .page-main-btn {
@@ -145,7 +149,10 @@ section {
   flex-direction: row;
   gap: 10px;
   border-radius: 4px;
+  border: none;
   padding: 16px 32px;
+  height: 56px;
+  min-width: 169px;
 }
 
 .page-main-btn:hover,
@@ -171,6 +178,7 @@ section {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .page-aside-text,
@@ -201,16 +209,13 @@ section {
   margin-bottom: 72px;
 }
 
-.portfolio-item {
-  margin-bottom: 48px;
-}
-
 .portfolio-list {
   align-items: center;
   flex-wrap: wrap;
   display: flex;
   list-style: none;
   gap: 24px;
+  row-gap: 48px;
 }
 /* ------ page-aside Portfolio-----*/
 
@@ -285,6 +290,7 @@ section {
 
 .page-footer {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 
 .footer-logo-part {
@@ -296,6 +302,10 @@ section {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+}
+
+.footer-container {
+  margin-bottom: 16px;
 }
 
 .team-item-conteiner {
