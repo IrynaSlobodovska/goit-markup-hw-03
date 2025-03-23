@@ -1,6 +1,8 @@
 ul,
 ol {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 a {
@@ -13,7 +15,53 @@ body {
   background-color: #fff;
 }
 
+.container {
+  width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 /* -------- HEADER ------- */
+.page-header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.contacts-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
 
 .logo {
   font-family: "Raleway", sans-serif;
@@ -25,11 +73,18 @@ body {
   color: #4d5ae5;
 }
 
+.header-logo {
+  padding: 24px 0;
+  margin-right: 76px;
+}
+
 .header-logo .logo-part {
   color: #2e2f42;
 }
 
 .nav-link {
+  display: block;
+  padding: 24px 0;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -46,9 +101,12 @@ body {
 
 .contacts {
   font-style: normal;
+  margin-left: auto;
 }
 
 .contacts-link {
+  display: block;
+  padding: 24px 0;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -63,7 +121,9 @@ body {
   background-color: #2e2f42;
 }
 
+
 .page-main-title {
+  margin-bottom: 48px;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -80,6 +140,13 @@ body {
   letter-spacing: 0.04em;
   color: #fff;
   cursor: pointer;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 10px;
+  border-radius: 4px;
+  padding: 16px 32px;
 }
 
 .page-main-btn:hover,
@@ -91,6 +158,13 @@ body {
 
 /* ------ page-aside Portfolio -----*/
 
+.page-aside-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin: 120px 0;
+}
+
 .page-aside-title,
 .portfolio-item-subtitle {
   font-weight: 500;
@@ -98,6 +172,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  ga
 }
 
 .page-aside-text,
