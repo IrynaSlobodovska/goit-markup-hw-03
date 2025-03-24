@@ -172,6 +172,7 @@ section {
 /* ------ page-aside Portfolio -----*/
 
 .page-aside-block {
+  width: calc((100% - 72px) / 4);
   width: 264px;
   height: 104px;
   display: flex;
@@ -179,7 +180,6 @@ section {
   justify-content: flex-start;
   flex-direction: column;
   gap: 8px;
-  width: calc((100% - 72px) / 4);
 }
 
 .page-aside-list {
