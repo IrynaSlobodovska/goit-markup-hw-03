@@ -171,6 +171,11 @@ section {
 
 /* ------ page-aside Portfolio -----*/
 
+.visually-hidden {
+  position: fixed;
+  transform: scale(0);
+}
+
 .page-aside-block {
   width: calc((100% - 72px) / 4);
   width: 264px;
