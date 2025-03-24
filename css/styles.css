@@ -21,6 +21,10 @@ body {
   margin: 0 auto;
 }
 
+img {
+  display: block;
+}
+
 h1,
 h2,
 h3,
@@ -175,13 +179,13 @@ section {
   justify-content: flex-start;
   flex-direction: column;
   gap: 8px;
+  width: calc((100% - 72px) / 4);
 }
 
 .page-aside-list {
   display: flex;
   align-items: center;
   gap: 24px;
-  width: calc((100% - 72px) / 4);
 }
 
 .page-aside-title,
@@ -254,7 +258,10 @@ section {
 }
 
 .team-item {
-  background-color: #ffffff;
+  width: calc((100% - 72px) / 4);
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  background: #fff;
   border-radius: 0 0 4px 4px;
   padding: 0px 0px 32px 0px;
   width: 264px;
@@ -265,11 +272,6 @@ section {
   display: flex;
   align-items: center;
   gap: 24px;
-  border-radius: 0 0 4px 4px;
-  padding: 0px 0px 32px 0px;
-  width: 264px;
-  height: 380px;
-  width: calc((100% - 72px) / 4);
 }
 
 .page-team-item-prof {
