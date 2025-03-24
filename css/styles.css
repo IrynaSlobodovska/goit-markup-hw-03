@@ -116,12 +116,9 @@ section {
 /* -------- HEADER ------- */
 
 /* -------- PAGE-MAIN ------- */
-.main-container {
-  padding: 188px 0;
-}
-
 .page-main {
   background-color: #2e2f42;
+  padding: 188px 0;
 }
 
 .page-main-title {
@@ -133,6 +130,10 @@ section {
   text-align: center;
   color: #fff;
   max-width: 496px;
+  display: block;
+  margin-bottom: 48px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .page-main-btn {
@@ -153,6 +154,8 @@ section {
   padding: 16px 32px;
   height: 56px;
   min-width: 169px;
+  display: block;
+  margin: auto;
 }
 
 .page-main-btn:hover,
@@ -164,11 +167,21 @@ section {
 
 /* ------ page-aside Portfolio -----*/
 
+.page-aside-block {
+  width: 264px;
+  height: 104px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 8px;
+}
+
 .page-aside-list {
   display: flex;
   align-items: center;
-  gap: 40px;
-  margin: 120px 0;
+  gap: 24px;
+  width: calc((100% - 72px) / 4);
 }
 
 .page-aside-title,
@@ -231,6 +244,9 @@ section {
   justify-content: center;
   flex-direction: column;
   gap: 8px;
+  padding: 32px 0;
+  width: 232px;
+  height: 56px;
 }
 
 .team-img {
@@ -253,6 +269,7 @@ section {
   padding: 0px 0px 32px 0px;
   width: 264px;
   height: 380px;
+  width: calc((100% - 72px) / 4);
 }
 
 .page-team-item-prof {
@@ -303,6 +320,7 @@ section {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  max-width: 264px;
 }
 
 .footer-container {
@@ -312,4 +330,10 @@ section {
 .team-item-conteiner {
   background-color: #ffffff;
 }
+
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
 /* --------FOOTER --------*/
